@@ -617,6 +617,11 @@ img {
 .input-span {
     display: block;
     margin-bottom: 4px;
+    position: relative;
+}
+
+.input-wrap {
+    position: relative;
 }
 
 .modal-input {
@@ -644,6 +649,13 @@ img {
 
 .modal-input:focus::placeholder {
     opacity: 0;
+}
+
+.modal-input-icon {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(50%);
 }
 
 .modal-form-btn:disabled {
