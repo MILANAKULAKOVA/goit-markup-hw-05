@@ -676,6 +676,27 @@ img {
     resize: none;
 }
 
+.check-text {
+    color: var(--color-icon);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-link {
+    color: var(--accent-color);
+}
+
+.check-text span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    margin-right: 8px;
+}
+
 .modal-form-btn:disabled {
     color: var(--color-paragraph);
     font-size: 16px;
