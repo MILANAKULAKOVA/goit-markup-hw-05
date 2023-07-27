@@ -697,6 +697,17 @@ img {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
     margin-right: 8px;
+    fill: transparent;
+}
+
+.modal-check:checked + .check-text span {
+    background-color: var(--color-blau);
+    border: none;
+    fill: var(--color-paragraph);
+}
+
+.modal-check:focus + .check-text span {
+    border-color: var(--main-color);
 }
 
 .modal-form-btn:disabled {
