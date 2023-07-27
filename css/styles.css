@@ -529,6 +529,22 @@ img {
     fill: var(--color-white);
 }
 
+.footer-subscribe {
+    color: var(--color-paragraph);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-left: 80px;
+}
+
+.footer-form {}
+
+.footer-input {}
+
+.footer-form-btn {}
+
 /*--------------MODAL-----------------*/
 
 .backdrop {
