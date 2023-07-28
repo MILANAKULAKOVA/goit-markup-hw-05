@@ -560,7 +560,7 @@ img {
     height: 40px;
     background-color: transparent;
     font-size: 12px;
-    line-break: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -752,6 +752,11 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-textarea:focus,
+.modal-check {
+    border-color: var(--accent-color);
+}
+
 .modal-check {
     margin-bottom: 24px;
 }
@@ -770,9 +775,6 @@ img {
 }
 
 .modal-icon-click {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -782,12 +784,15 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-check:checked + .check-text span {
     background-color: var(--color-blau);
     border: none;
-    fill: var(--color-paragraph);
+    fill: var(--color-white);
 }
 
 .modal-check:focus + .check-text span {
