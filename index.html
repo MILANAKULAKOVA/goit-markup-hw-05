@@ -366,9 +366,10 @@
             <div class="footer-bottom">
                 <p class="footer-subscribe">Subscribe</p>
                 <form class="footer-form">
-                    <label aria-label="email">
-                        <input type="email" name="footer-email" class="footer-input" placeholder="E-mail" />
-                    </label>
+                    <div class="footer-input-wrap">
+                        <input type="email" name="footer-email" class="footer-input" id="footer-email" />
+                        <label for="footer-email" class="footer-label">E-mail</label>
+                    </div>
                     <button type="submit" class="footer-form-btn">Subscribe</button>
                 </form>
             </div>
@@ -427,7 +428,8 @@
                                 <use href="./images/icons.svg#icon-click"></use>
                             </svg>
                         </span> I accept the terms and conditions of the 
-                        <a href="" class="privacy-link">Privacy Policy</a> </label>
+                        <a href="" class="privacy-link">Privacy Policy</a> 
+                    </label>
                 </div>
                 <button type="submit" class="modal-form-btn" disabled>Send</button>
             </form>
