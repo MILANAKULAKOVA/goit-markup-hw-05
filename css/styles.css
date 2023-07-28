@@ -558,6 +558,16 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.footer-label {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-paragraph);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
+
 .footer-form-btn {
     width: 165px;
     padding: 8px 24px;
@@ -572,14 +582,16 @@ img {
     margin-left: 24px;
 }
 
-.footer-label {
+.footer-telegram-container {
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--color-paragraph);
-    font-size: 12px;
-    letter-spacing: 0.04em;
+    margin-left: 16px;
+}
+
+.footer-telegram {
+    fill: var(--color-paragraph);
 }
 
 /*--------------MODAL-----------------*/
